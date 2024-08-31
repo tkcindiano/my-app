@@ -1,0 +1,62 @@
+/* Full-page container with a colorful background */
+body {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centered container for vehicle details */
+.vehicle-container {
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: palevioletred;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 3px solid #66a6ff;
+    justify-content: center;
+}
+
+/* Style for the vehicle image */
+.vehicle-container img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 5px black;
+}
+.vehicle-container img:hover{
+    position: relative;
+    width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 5px rgb(6, 64, 238);
+    cursor: pointer;
+}
+/* Headings for vehicle details */
+.vehicle-container h1 {
+    font-size: 22px;
+    margin: 8px 0;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Style for specific elements like cost */
+.vehicle-container .cost {
+    font-weight: bold;
+    color: #0066cc;
+    font-size: 24px;
+    margin-top: 15px;
+}
